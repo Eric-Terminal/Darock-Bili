@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -632,7 +632,7 @@
 				6BBFF7C72A5012EC00DE050E /* XCRemoteSwiftPackageReference "SDWebImageSVGCoder" */,
 				6BBFF7CA2A5012FF00DE050E /* XCRemoteSwiftPackageReference "SDWebImagePDFCoder" */,
 				6BBFF7D22A50737C00DE050E /* XCRemoteSwiftPackageReference "SwiftSoup" */,
-				6BA1E5492A6AF2A900293B2C /* XCRemoteSwiftPackageReference "DarockKit" */,
+				6BA1E5492A6AF2A900293B2C /* XCLocalSwiftPackageReference "../../../Documents/DarockKit" */,
 				6BC8CB1D2A6CF48400D2E9E9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
 				6B37B4BB2A715EF800F26F1A /* XCRemoteSwiftPackageReference "SFSymbol" */,
 				6B853FE82A7509DC0067B55C /* XCRemoteSwiftPackageReference "ZipArchive" */,
@@ -994,11 +994,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 165;
 				DEVELOPMENT_ASSET_PATHS = "\"DarockBili/Preview Content\"";
-				DEVELOPMENT_TEAM = B57D8PP775;
+				DEVELOPMENT_TEAM = K9LDK6LF4H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DarockBili/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "喵哩喵哩";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1010,7 +1011,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.darock.DarockBili;
+				PRODUCT_BUNDLE_IDENTIFIER = com.darock.eric.DarockBili;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1033,11 +1034,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 165;
 				DEVELOPMENT_ASSET_PATHS = "\"DarockBili/Preview Content\"";
-				DEVELOPMENT_TEAM = B57D8PP775;
+				DEVELOPMENT_TEAM = K9LDK6LF4H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DarockBili/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "喵哩喵哩";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1049,7 +1051,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.darock.DarockBili;
+				PRODUCT_BUNDLE_IDENTIFIER = com.darock.eric.DarockBili;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1073,20 +1075,21 @@
 				CURRENT_PROJECT_VERSION = 165;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DarockBili Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = B57D8PP775;
+				DEVELOPMENT_TEAM = K9LDK6LF4H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DarockBili-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "喵哩喵哩";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.darock.DarockBili;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.darock.eric.DarockBili;
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.darock.DarockBili.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.darock.eric.DarockBili.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1108,20 +1111,21 @@
 				CURRENT_PROJECT_VERSION = 165;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DarockBili Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = B57D8PP775;
+				DEVELOPMENT_TEAM = K9LDK6LF4H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DarockBili-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "喵哩喵哩";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.darock.DarockBili;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.darock.eric.DarockBili;
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.darock.DarockBili.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.darock.eric.DarockBili.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1184,6 +1188,13 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		6BA1E5492A6AF2A900293B2C /* XCLocalSwiftPackageReference "../../../Documents/DarockKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../../Documents/DarockKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCRemoteSwiftPackageReference section */
 		6B37B4BB2A715EF800F26F1A /* XCRemoteSwiftPackageReference "SFSymbol" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -1199,14 +1210,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 2.5.4;
-			};
-		};
-		6BA1E5492A6AF2A900293B2C /* XCRemoteSwiftPackageReference "DarockKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Darock-Studio/DarockKit";
-			requirement = {
-				branch = main;
-				kind = branch;
 			};
 		};
 		6BBFF7BA2A4FF18100DE050E /* XCRemoteSwiftPackageReference "EFQRCode" */ = {
@@ -1310,7 +1313,7 @@
 		};
 		6BC8CB332A6D758000D2E9E9 /* DarockKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6BA1E5492A6AF2A900293B2C /* XCRemoteSwiftPackageReference "DarockKit" */;
+			package = 6BA1E5492A6AF2A900293B2C /* XCLocalSwiftPackageReference "../../../Documents/DarockKit" */;
 			productName = DarockKit;
 		};
 		6BC8CB352A6D758000D2E9E9 /* CachedAsyncImage */ = {
@@ -1320,7 +1323,7 @@
 		};
 		6BFF29A52A6C10EB00914A8E /* DarockKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6BA1E5492A6AF2A900293B2C /* XCRemoteSwiftPackageReference "DarockKit" */;
+			package = 6BA1E5492A6AF2A900293B2C /* XCLocalSwiftPackageReference "../../../Documents/DarockKit" */;
 			productName = DarockKit;
 		};
 /* End XCSwiftPackageProductDependency section */

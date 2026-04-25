@@ -141,7 +141,7 @@ struct VideoDetailView: View {
                                                         let cid = Int((String(data: response.data!, encoding: .utf8)?.components(separatedBy: "\"pages\":[{\"cid\":")[1].components(separatedBy: ",")[0])!)!
                                                         VideoDetailView.willPlayVideoCID = String(cid)
                                                         AF.request("https://api.bilibili.com/x/player/playurl?platform=html5&bvid=\(videoDetails["BV"]!)&cid=\(cid)", headers: headers).response { response in
-                                                            VideoDetailView.willPlayVideoLink = (String(data: response.data!, encoding: .utf8)?.components(separatedBy: ",\"url\":\"")[1].components(separatedBy: "\",")[0])!.replacingOccurrences(of: "\\u0026", with: "&")
+                                                            //VideoDetailView.willPlayVideoLink = (String(data: response.data!, encoding: .utf8)?.components(separatedBy: ",\"url\":\"")[1].components(separatedBy: "\",")[0])!.replacingOccurrences(of: "\\u0026", with: "&")
                                                             //debugPrint(response)
                                                             VideoDetailView.willPlayVideoBV = videoDetails["BV"]!
                                                             isVideoPlayerPresented = true
@@ -292,7 +292,7 @@ struct VideoDetailView: View {
                         honors.append("")
                     }
                     for honor in respJson["data"]["honor_reply"]["honor"] {
-                        honors[honor.1["type"].int! - 1] = honor.1["desc"].string ?? "[加载失败]"
+                        //honors[honor.1["type"].int! - 1] = honor.1["desc"].string ?? "[加载失败]"
                     }
                     if let mid = respJson["data"]["owner"]["mid"].int {
                         DarockKit.Network.shared.requestJSON("https://api.bilibili.com/x/relation/stat?vmid=\(mid)", headers: headers) { respJson, isSuccess in
